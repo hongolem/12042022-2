@@ -7,7 +7,6 @@ C2 = []
 
 led.plot(A1[0], A1[1])
 
-
 def on_button_pressed_a():
     global A1, A2
     if (A1[0] == 0 or A1[0] == 1) and (A1[1] == 0 or A1[1] == 1):
